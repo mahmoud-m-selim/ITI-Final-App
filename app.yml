@@ -18,8 +18,5 @@ spec:
         - name: nodejs
           image: mahmoudmselim/nodejs:latest
           resources:
-            requests:
-              memory: "500Mi"
-              cpu: "500m"
           ports:
             - containerPort: 3000
